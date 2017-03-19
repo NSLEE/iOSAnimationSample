@@ -14,6 +14,7 @@
 		649DC0011E7CFE7900DEBE70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 649DBFFF1E7CFE7900DEBE70 /* LaunchScreen.storyboard */; };
 		649DC00C1E7CFE7900DEBE70 /* iOSAnimationSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649DC00B1E7CFE7900DEBE70 /* iOSAnimationSampleTests.swift */; };
 		649DC0171E7CFE7900DEBE70 /* iOSAnimationSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649DC0161E7CFE7900DEBE70 /* iOSAnimationSampleUITests.swift */; };
+		649DC0251E7D019800DEBE70 /* PositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649DC0241E7D019800DEBE70 /* PositionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		649DC0121E7CFE7900DEBE70 /* iOSAnimationSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAnimationSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		649DC0161E7CFE7900DEBE70 /* iOSAnimationSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAnimationSampleUITests.swift; sourceTree = "<group>"; };
 		649DC0181E7CFE7900DEBE70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		649DC0241E7D019800DEBE70 /* PositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				649DBFF61E7CFE7900DEBE70 /* AppDelegate.swift */,
 				649DBFF81E7CFE7900DEBE70 /* ViewController.swift */,
 				649DBFFA1E7CFE7900DEBE70 /* Main.storyboard */,
+				649DC0241E7D019800DEBE70 /* PositionViewController.swift */,
 				649DBFFD1E7CFE7900DEBE70 /* Assets.xcassets */,
 				649DBFFF1E7CFE7900DEBE70 /* LaunchScreen.storyboard */,
 				649DC0021E7CFE7900DEBE70 /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				649DC0251E7D019800DEBE70 /* PositionViewController.swift in Sources */,
 				649DBFF91E7CFE7900DEBE70 /* ViewController.swift in Sources */,
 				649DBFF71E7CFE7900DEBE70 /* AppDelegate.swift in Sources */,
 			);
