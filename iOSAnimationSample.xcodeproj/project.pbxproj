@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6479B5831E7E8A62003FDFDF /* OpacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6479B5821E7E8A62003FDFDF /* OpacityViewController.swift */; };
 		6479B5851E7E95CD003FDFDF /* RotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6479B5841E7E95CD003FDFDF /* RotationViewController.swift */; };
+		6479B5881E7EA1DE003FDFDF /* RepeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6479B5871E7EA1DE003FDFDF /* RepeatViewController.swift */; };
 		649DBFF71E7CFE7900DEBE70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649DBFF61E7CFE7900DEBE70 /* AppDelegate.swift */; };
 		649DBFF91E7CFE7900DEBE70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649DBFF81E7CFE7900DEBE70 /* ViewController.swift */; };
 		649DBFFC1E7CFE7900DEBE70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 649DBFFA1E7CFE7900DEBE70 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		6479B5821E7E8A62003FDFDF /* OpacityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpacityViewController.swift; sourceTree = "<group>"; };
 		6479B5841E7E95CD003FDFDF /* RotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationViewController.swift; sourceTree = "<group>"; };
+		6479B5871E7EA1DE003FDFDF /* RepeatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatViewController.swift; sourceTree = "<group>"; };
 		649DBFF31E7CFE7900DEBE70 /* iOSAnimationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSAnimationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		649DBFF61E7CFE7900DEBE70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		649DBFF81E7CFE7900DEBE70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6479B5861E7EA1A9003FDFDF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				649DC0241E7D019800DEBE70 /* PositionViewController.swift */,
+				6479B5821E7E8A62003FDFDF /* OpacityViewController.swift */,
+				6479B5841E7E95CD003FDFDF /* RotationViewController.swift */,
+				6479B5871E7EA1DE003FDFDF /* RepeatViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		649DBFEA1E7CFE7900DEBE70 = {
 			isa = PBXGroup;
 			children = (
@@ -103,11 +116,9 @@
 		649DBFF51E7CFE7900DEBE70 /* iOSAnimationSample */ = {
 			isa = PBXGroup;
 			children = (
+				6479B5861E7EA1A9003FDFDF /* ViewController */,
 				649DBFF61E7CFE7900DEBE70 /* AppDelegate.swift */,
 				649DBFF81E7CFE7900DEBE70 /* ViewController.swift */,
-				649DC0241E7D019800DEBE70 /* PositionViewController.swift */,
-				6479B5821E7E8A62003FDFDF /* OpacityViewController.swift */,
-				6479B5841E7E95CD003FDFDF /* RotationViewController.swift */,
 				649DBFFA1E7CFE7900DEBE70 /* Main.storyboard */,
 				649DBFFD1E7CFE7900DEBE70 /* Assets.xcassets */,
 				649DBFFF1E7CFE7900DEBE70 /* LaunchScreen.storyboard */,
@@ -271,6 +282,7 @@
 				649DC0251E7D019800DEBE70 /* PositionViewController.swift in Sources */,
 				6479B5851E7E95CD003FDFDF /* RotationViewController.swift in Sources */,
 				649DBFF91E7CFE7900DEBE70 /* ViewController.swift in Sources */,
+				6479B5881E7EA1DE003FDFDF /* RepeatViewController.swift in Sources */,
 				6479B5831E7E8A62003FDFDF /* OpacityViewController.swift in Sources */,
 				649DBFF71E7CFE7900DEBE70 /* AppDelegate.swift in Sources */,
 			);
